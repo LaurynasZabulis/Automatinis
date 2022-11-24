@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Selenium Easy" parallel="methods" thread-count="4">
+    <test name="Test demo">
+        <classes>
+
+            <class name="pom.tests.seleniumeasy.DropdownListDemoTest"/>
+            <class name="pom.tests.seleniumeasy.RadiobuttonDemoTest"/>
+            <class name="pom.tests.seleniumeasy.CheckBoxDemoTest"/>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
